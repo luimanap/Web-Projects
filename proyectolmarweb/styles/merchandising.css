@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+            .merch img{
+                width: 60%;
+                height: auto;
+            }
+            #catch{
+                padding: 5%;
+                font-size: larger;
+            }
+            td p{
+                padding:0% 25% 0% 25%;
+            }
+            .izquierda{
+                border-right: 1px solid white;
+                border-collapse: collapse;
+            }

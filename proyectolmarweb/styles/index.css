@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+            #intro{
+                background-color: rgba(0, 0, 0, 0.8);
+                width: 50%;
+                margin-left: 25%;
+                margin-right: 25%;
+                text-align: center;
+                -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.58);
+                -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.58);
+                box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.58);
+                margin-bottom: 10%;
+                margin-top: 0%;
+                font-family: 'Inknut Antiqua', serif;
+                color: white;
+                padding: 1%;
+            }
+            .logo{
+                width: 51.75%;
+                margin-left: 25%;
+                margin-top:11%
+            }
+            .intrologo{
+                width: 20%;
+                margin-left: 40%;
+                margin-right: 40%;
+            }
+            /*.intrologo:hover{
+                transition: 0.5s;
+                scale: ;
+                animation: infinite;
+               
+            }*/
+            @media (max-width: 1000px){
+                #intro{
+                    width: 50%;
+                    padding: 15px;
+                    margin-left: 25%;
+                    border-radius: 0;
+                    background-color:rgba(0, 0, 0, 0.8);
+                    text-align: center;
+                    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.58);
+                    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.58);
+                    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.58);
+                    font-family: 'Inknut Antiqua', serif;
+                    margin-top: 35%;
+                    color: white; 
+                }
+                #intro h2{
+                    font-size: medium;
+                }
+                #intro p{
+                    font-size: small;
+                }
+            }

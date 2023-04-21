@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iniciar Sesion | Mazmorra Del Drugo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" charset="IE=edge">
+        <link rel="stylesheet" href="../styles/header-footer.css">
+        <link rel="stylesheet" href="../styles/main.css">
+        <link rel="stylesheet" href="../styles/iniciarsesion.css">
+    </head>
+    <body>
+        <header>
+            <div id="logodiv">
+                <a href="../index.html"><img id="logo" src="../media/logo.png" alt="logo"></a>
+            </div>
+            <nav class="desplegable">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <div class="rotar">
+                        <img id="iconomenu" src="../media/menu.png">
+                    </div>
+                </label>
+                <ul class="nav">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><p>PRODUCTOS</p>
+                        <ul class="nav">
+                            <li><a href="juegosmesa.html">Juegos de mesa</a></li>
+                            <li><a href="libros.html">Libros</a></li>
+                            <li><a href="merchandising.html">Merchandising</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li id="pwd"><a href="registro.html">REGISTRO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h2>Iniciar sesión</h2>
+                <form id="formularioIniciar" action="registrocompleto.html">
+                    <label>Correo Electronico: </label><input type="email" required><label class="obligatorio">*</label><br>
+                    <label>Contraseña: </label><input type="password" id="contraseña" name="contraseña" required><label class="obligatorio">*</label><br>
+                    
+                    <div id="password-match"></div>
+                    <br>
+                    <input class="boton" type="submit" value="Enviar">
+                    <input class="boton" type="reset" value="Borrar">
+                </form>
+                <p>No tengo cuenta. <a id="iniciarsesion" href="registro.html">Crear cuenta</a></p>
+            </div>
+        </main>
+        <footer class="fixedfooter">
+            <p>Mazmorra del Drugo &copy; 2023 - Todos los derechos reservados</p>
+        </footer>
+    </body>
+</html>
